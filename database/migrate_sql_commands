@@ -19,5 +19,5 @@ php artisan make:middleware UserAuth
 git status
 git add .
 git commit -m"login done" 
-git push
-put your youseernale and password gi
+git pushgit pus
+put your youseernale and password git
