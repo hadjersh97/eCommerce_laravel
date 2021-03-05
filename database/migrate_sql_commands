@@ -22,3 +22,29 @@ git commit -m"login done"
 git pushgit pus
 put your youseernale and password git
  
+50 min : database for products :
+php artisan make:migration create_product_table 
+php artisan migrate 
+php artisan make:seeder ProductSeeder
+php artisan db:seed --class=ProductSeeder 
+------------------01:01:00 Home page Slider -------------
+php artisan make:model product
+/*to rename: 
+php artisan make:migration rename_table
+Schema::rename('old_table_name', 'new_table_name'); //in up fuction 
+php artisan migrate
+*/
+1:18:00 product detail 
+1:30 add cart 
+php artisan make:migration create_cart_table
+php artisan migrate 
+
+
+php artisan db:seed --class=ProductSeeder
+1:33:.. add product in cart table ::
+
+php artisan make:model cart
+
+1:44:24: show add to cart count
+..........................................
+1:51  logout and login complete
