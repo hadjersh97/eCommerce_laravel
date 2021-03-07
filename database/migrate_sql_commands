@@ -48,3 +48,23 @@ php artisan make:model cart
 1:44:24: show add to cart count
 ..........................................
 1:51  logout and login complete
+1:59 git :
+git add .
+git commit -m"login and logout done"
+git push origin master
+
+2:00:00 create cart product listing 
+git
+2:12:47 remove from cart
+2:17:00 order page 
+2:29:00 order table 
+php artisan make:migration create_orders_table
+php artisan migrate
+2:33:00 place order 
+php artisan make:model Order
+
+2:46:00 show my order list
+
+2:54  user registrition
+
+php artisan migrate:refresh --path=/database/migrations/2021_02_27_065145_create_users_table.php

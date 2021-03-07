@@ -17,7 +17,7 @@
 <body>
         {{View::make('header')}}
          @yield('content')
-        {{View::make('footer')}} 
+        {{View::make('footer')}}  
   
     
 </body>
@@ -49,6 +49,15 @@
         .detail-img{
             height:200px;
         }
+        .cart-list-devider{
+            border-bottom: 1px solid #ccc ;
+            margin-bottom = 20px; 
+            padding-bottom: 20px;
+        }
+        .cart-list-devider > div:first-child{
+            padding-right: 300px;
+        }
+        
     </style>
 
 </html>
